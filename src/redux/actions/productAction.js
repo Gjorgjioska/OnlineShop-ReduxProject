@@ -1,4 +1,4 @@
-import { ActionTypes } from "..contants/action-types";
+import { ActionTypes } from "../actions/action-types";
 
 export const setProducts = (products) => {
   return {
@@ -7,7 +7,7 @@ export const setProducts = (products) => {
   };
 };
 
-export const setProducts = (product) => {
+export const selectProducts = (product) => {
   return {
     type: ActionTypes.SELECTED_PRODUCT,
     payload: product,
