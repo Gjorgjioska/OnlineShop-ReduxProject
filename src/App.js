@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./containers/Header";
 import ProductListing from "./containers/ProductListing";
 import ProductDetail from "./containers/ProductDetail";
-import ProductComponent from "./containers/ProductComponent";
 
 function App() {
   return (

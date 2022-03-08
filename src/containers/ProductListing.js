@@ -18,8 +18,6 @@ const ProductListing = () => {
     dispatch(setProducts(response.data));
   };
 
-  console.log(products);
-
   useEffect(() => {
     fetchProducts();
   }, []);
